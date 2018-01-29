@@ -28,7 +28,7 @@ Here is how you can run this project on your local machine:
 
 * Clone the Repo from GitHub
 
-* Open the Project on Windows on Unity version 2017.02+ (Preferably 2017.03.0f3)
+* Open either of the Project on Windows on Unity version 2017.02+ (Preferably 2017.03.0f3)
 
 * Enter the values for Speed_in_Seconds and blocks at the Inputs at the Script Component. The Script attached to the "Grid" GameObject.
 
@@ -55,7 +55,7 @@ Here is how you can run this project on your local machine:
 	Element4	X: -1	Y: -1\
 	Element5	X: -1	Y: -2\
 	Element6	X: -2	Y: -1\
-	Element7	X: -2	Y: -2\
+	Element7	X: -2	Y: -2
 
 
 	**Blinker:**\
@@ -64,7 +64,7 @@ Here is how you can run this project on your local machine:
 	Size: 8\
 	Element0	X: -1	Y: 0\
 	Element1	X: 0	Y: 0\
-	Element2	X: 1	Y: 0\
+	Element2	X: 1	Y: 0
 
 
 	**Toad**\
@@ -76,7 +76,7 @@ Here is how you can run this project on your local machine:
 	Element2	X: 2	Y: 0\
 	Element3	X: 1	Y: -1\
 	Element4	X: 0	Y: -1\
-	Element5	X: -1	Y: -1\
+	Element5	X: -1	Y: -1
 
 
 
@@ -88,4 +88,4 @@ Here is how you can run this project on your local machine:
 	Element1	X: 0	Y: 1\
 	Element2	X: 0	Y: 0\
 	Element3	X: -1	Y: 0\
-	Element4	X: -2	Y: 1\
+	Element4	X: -2	Y: 1
