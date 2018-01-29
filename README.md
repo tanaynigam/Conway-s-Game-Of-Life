@@ -35,46 +35,82 @@ Here is how you can run this project on your local machine:
 	* After Initializing, hitting the Play button allows the Game of Life to run through the rest of its iterations.
  
 * Here are few examples of Inputs that can be used for initializing the Game of Life:
+
 	**Beacon**
+
 	Speed_in_Seconds: 1
+
 	Blocks
+
 	Size: 8
+
 	Element0	X: 0	Y: 0
+
 	Element1	X: 1	Y: 0
+
 	Element2	X: 0	Y: 1
+
 	Element3	X: 1	Y: 1
+
 	Element4	X: -1	Y: -1
+
 	Element5	X: -1	Y: -2
+
 	Element6	X: -2	Y: -1
+
 	Element7	X: -2	Y: -2
 
 	**Blinker**
+
 	Speed_in_Seconds: 1
+
 	Blocks
+
 	Size: 8
+
 	Element0	X: -1	Y: 0
+
 	Element1	X: 0	Y: 0
+
 	Element2	X: 1	Y: 0
 
+
 	**Toad**
+
 	Speed_in_Seconds: 1
+
 	Blocks
+
 	Size: 6
+
 	Element0	X: 0	Y: 0
+
 	Element1	X: 1	Y: 0
+
 	Element2	X: 2	Y: 0
+
 	Element3	X: 1	Y: -1
+
 	Element4	X: 0	Y: -1
+
 	Element5	X: -1	Y: -1
 
-	**Spaceship**
-	Speed_in_Seconds: 1
-	Blocks
-	Size: 5
-	Element0	X: 0	Y: 2
-	Element1	X: 0	Y: 1
-	Element2	X: 0	Y: 0
-	Element3	X: -1	Y: 0
-	Element4	X: -2	Y: 1
 
-	
+
+	**Spaceship**
+
+	Speed_in_Seconds: 1
+
+	Blocks
+
+	Size: 5
+
+	Element0	X: 0	Y: 2
+
+	Element1	X: 0	Y: 1
+
+	Element2	X: 0	Y: 0
+
+	Element3	X: -1	Y: 0
+
+	Element4	X: -2	Y: 1
