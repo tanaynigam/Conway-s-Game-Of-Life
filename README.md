@@ -6,7 +6,10 @@ Introduction
 
 The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
 
-This project is a Unity implementation of Game of life in 2D and 3D. The color White is used for representing **Dead** cells and black for **Alive** cells.
+This project is a Unity implementation of Game of life in 2D and 3D.
+
+In the 2D verion of the Game, the color White is used for representing **Dead** cells and black for **Alive** cells.
+In the 3D version of the Game, the Black cubes are used for representing **Alive** cells and the **Dead** cells disappear from the view.
 
 The 2D and 3D version of the game works on the following rules.
 
@@ -33,6 +36,10 @@ Here is how you can run this project on your local machine:
 	* The Blocks component of the Script determines the initial placement of the **Alive** Cells to start the game. The inputs require using the **Size** factor of the block to input number of initial **Alive** Cells and then input coordinates of each **Alive** Cell.
 	* The coordinates of the grid corresponds to a regular X-Y grid with X=0 and Y=0 at the center of the grid/Camera.
 	* After Initializing, hitting the Play button allows the Game of Life to run through the rest of its iterations.
+
+* For the 3D version of the game, It is possible to control the camera for different viewpoints of the Game of Life:
+	* The Arrow Keys or W/A/S/D control the movement of the Camera
+	* The Mouse controls the direction of the view of the Camera
  
 * Here are few examples of Inputs that can be used for initializing the Game of Life:
 
