@@ -9,6 +9,7 @@ The Game of Life, also known simply as Life, is a cellular automaton devised by 
 This project is a Unity implementation of Game of life in 2D and 3D.
 
 In the 2D verion of the Game, the color White is used for representing **Dead** cells and black for **Alive** cells.
+
 In the 3D version of the Game, the Black cubes are used for representing **Alive** cells and the **Dead** cells disappear from the view.
 
 The 2D and 3D version of the game works on the following rules.
@@ -43,81 +44,48 @@ Here is how you can run this project on your local machine:
  
 * Here are few examples of Inputs that can be used for initializing the Game of Life:
 
-	**Beacon**
+	**Beacon:**\
+	Speed_in_Seconds: 1\
+	Blocks\
+	Size: 8\
+	Element0	X: 0	Y: 0\
+	Element1	X: 1	Y: 0\
+	Element2	X: 0	Y: 1\
+	Element3	X: 1	Y: 1\
+	Element4	X: -1	Y: -1\
+	Element5	X: -1	Y: -2\
+	Element6	X: -2	Y: -1\
+	Element7	X: -2	Y: -2\
 
+
+	**Blinker:**
 	Speed_in_Seconds: 1
-
 	Blocks
-
 	Size: 8
-
-	Element0	X: 0	Y: 0
-
-	Element1	X: 1	Y: 0
-
-	Element2	X: 0	Y: 1
-
-	Element3	X: 1	Y: 1
-
-	Element4	X: -1	Y: -1
-
-	Element5	X: -1	Y: -2
-
-	Element6	X: -2	Y: -1
-
-	Element7	X: -2	Y: -2
-
-	**Blinker**
-
-	Speed_in_Seconds: 1
-
-	Blocks
-
-	Size: 8
-
 	Element0	X: -1	Y: 0
-
 	Element1	X: 0	Y: 0
-
 	Element2	X: 1	Y: 0
 
 
 	**Toad**
-
 	Speed_in_Seconds: 1
-
 	Blocks
-
 	Size: 6
-
 	Element0	X: 0	Y: 0
-
 	Element1	X: 1	Y: 0
-
 	Element2	X: 2	Y: 0
-
 	Element3	X: 1	Y: -1
-
 	Element4	X: 0	Y: -1
-
 	Element5	X: -1	Y: -1
 
 
 
-	**Spaceship**
-
+	**Spaceship:**
 	Speed_in_Seconds: 1
-
 	Blocks
-
 	Size: 5
-
 	Element0	X: 0	Y: 2
-
 	Element1	X: 0	Y: 1
-
 	Element2	X: 0	Y: 0
-
 	Element3	X: -1	Y: 0
-
 	Element4	X: -2	Y: 1
