@@ -10,10 +10,10 @@ This project is a Unity implementation of Game of life in 2D and 3D. The color W
 
 The 2D and 3D version of the game works on the following rules.
 
-1.Any live cell with fewer than two live neighbours dies.
-2.Any live cell with two or three live neighbours lives.
-3.Any live cell with more than three live neighbours dies.
-4.Any dead cell with exactly three live neighbours becomes a live cell.
+1. Any live cell with fewer than two live neighbours dies.
+2. Any live cell with two or three live neighbours lives.
+3. Any live cell with more than three live neighbours dies.
+4. Any dead cell with exactly three live neighbours becomes a live cell.
 
 The game is activated by filling in the initial conditions on a grid of size [60x28] and running **Play**.
 
