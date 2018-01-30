@@ -106,11 +106,9 @@ Implementation
 	* The implementation involves Array of *Cells* and corresponding Array of *Positions* that keep the state of each Tile and Position at every *Update* Cycle.
 	* A Stack for **Dead** and **Alive** state changes are used respectively to keep a track of state change at each Update Cycle.
 	* A *Switch* function checks neighbours of all **Aive** Cells and neighbourhood **Dead** Cells for any change of state, which is stored in the respective Stacks.
-	* At every *Update* Cycle, The prefabs for the previous Cycle are *destroyed* and the 3D world is updated with set of **Alive** cubes at specific locations as stated in the *Cell* Array.
+	* At every *Update* Cycle, The prefabs for the previous Cycle are *Destroyed* and the 3D world is updated with set of **Alive** cubes at specific locations as stated in the *Cell* Array.
 	* The 3D version of the game also involves Camera Movements using **Mouse** and **Arrow Keys** for better viewing of the game.
 
 
 
-HOPE YOU ENJOY THE EXPERIENCE
--------------------------------
-
+*Hope you Enjoy the Experience*
