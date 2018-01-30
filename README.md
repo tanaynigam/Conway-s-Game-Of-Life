@@ -89,3 +89,28 @@ Here is how you can run this project on your local machine:
 	Element2	X: 0	Y: 0\
 	Element3	X: -1	Y: 0\
 	Element4	X: -2	Y: 1
+
+
+Implementation
+----------------------
+
+* The 2D version of the Game of Life is implemented using TileMap toolset of Unity (version 2017.02+)
+	* The TileMaps change color depending on the state of a cell. The **Dead** cells use White colored Sprites while the **Alive** Cells use Black colored Sprites.
+	* The implementation involves Array of *TileBase* and corresponding Array of *Positions* that keep the state of each Tile and Position at every *Update* Cycle.
+	* A Stack for **Dead** and **Alive** state changes are used respectively to keep a track of state change at each Update Cycle.
+	* A *Switch* function checks neighbours of all **Aive** Cells and neighbourhood **Dead** Cells for any change of state, which is stored in the respective Stacks.
+	* At every *Update* Cycle, the *TileBase* Array checks the Stacks for changes and updates the Sprites of its TileMap as per the State Change.
+
+* The 3D version of the Game of Life is implemented using the **Alive** Cube Prefab.
+	* The **Alive** cube appears at an open space and disappears depending on the state of the cell. The empty space represent the **Dead** Cell Space while the Black Cube represents the **Alive** Cell Space.
+	* The implementation involves Array of *Cells* and corresponding Array of *Positions* that keep the state of each Tile and Position at every *Update* Cycle.
+	* A Stack for **Dead** and **Alive** state changes are used respectively to keep a track of state change at each Update Cycle.
+	* A *Switch* function checks neighbours of all **Aive** Cells and neighbourhood **Dead** Cells for any change of state, which is stored in the respective Stacks.
+	* At every *Update* Cycle, The prefabs for the previous Cycle are *destroyed* and the 3D world is updated with set of **Alive** cubes at specific locations as stated in the *Cell* Array.
+	* The 3D version of the game also involves Camera Movements using **Mouse** and **Arrow Keys** for better viewing of the game.
+
+
+
+HOPE YOU ENJOY THE EXPERIENCE
+-------------------------------
+
